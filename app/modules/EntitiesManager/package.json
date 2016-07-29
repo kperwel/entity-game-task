@@ -1,0 +1,4 @@
+{
+  "name": "EntitiesManager",
+  "main": "./entities-manager.js"
+}

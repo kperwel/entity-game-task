@@ -1,0 +1,4 @@
+{
+  "name": "GameController",
+  "main": "./game-controller.js"
+}

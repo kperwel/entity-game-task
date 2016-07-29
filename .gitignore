@@ -1,6 +1,3 @@
 /build/
 /node_modules/
 .idea/
-app/
-build/
-node_modules/

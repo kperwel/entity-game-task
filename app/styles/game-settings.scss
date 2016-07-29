@@ -1,0 +1,54 @@
+.btn-spin {
+  display: block;
+  background: url('/app/images/spin-active.png');
+  border: 0;
+  width: 98px;
+  height: 98px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+  outline: 0;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+
+    background: url('/app/images/spin.png') no-repeat;
+    background-size: cover;
+    transition: opacity 200ms ease-in-out;
+  };
+
+  &[disabled] {
+    pointer-events: none;
+    &:after {
+      opacity: 1;
+    }
+  }
+}
+
+.select--symbol {
+  padding: 5px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+@media (max-width: 800px) {
+  .btn-spin {
+    right: 2vw;
+    width: 12vw;
+    height: 12vw;
+  }
+}

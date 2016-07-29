@@ -1,0 +1,4 @@
+{
+  "name": "ConfigLoader",
+  "main": "./config-loader.js"
+}

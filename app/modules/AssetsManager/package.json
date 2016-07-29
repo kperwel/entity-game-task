@@ -1,0 +1,4 @@
+{
+  "name": "AssetsManager",
+  "main": "./assets-manager.js"
+}

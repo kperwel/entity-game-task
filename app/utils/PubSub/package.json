@@ -1,0 +1,4 @@
+{
+  "name": "PubSub",
+  "main": "./pubsub.js"
+}

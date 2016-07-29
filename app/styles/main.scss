@@ -1,0 +1,34 @@
+@import 'config.scss';
+@import 'mixins.scss';
+
+@import 'canvas.scss';
+@import 'config-panel.scss';
+@import 'game-settings.scss';
+
+html, body {
+  min-height: 100%;
+  padding: 0;
+}
+
+body {
+  background: $body_background;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  @include aspect-ratio($canvas_width, $canvas_height);
+  .content {
+    background: url('/app/images/bg.png') $canvas_background;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}

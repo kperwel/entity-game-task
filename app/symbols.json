@@ -1,0 +1,32 @@
+[
+  {
+    "id": "violet",
+    "name": "Violet",
+    "path": "/app/images/symbols/violet.png"
+  },
+  {
+    "id": "green",
+    "name": "Green",
+    "path": "/app/images/symbols/green.png"
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "path": "/app/images/symbols/orange.png"
+  },
+  {
+    "id": "red",
+    "name": "Red",
+    "path": "/app/images/symbols/red.png"
+  },
+  {
+    "id": "wild",
+    "name": "Wild",
+    "path": "/app/images/symbols/wild.png"
+  },
+  {
+    "id": "yellow",
+    "name": "Yellow",
+    "path": "/app/images/symbols/yellow.png"
+  }
+]
