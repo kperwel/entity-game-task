@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <canvas width="800" height="451" id="game"></canvas>
+            <div class="game-settings">
+                <form class="game-settings__form" id="game-settings">
+                    <button disabled class="btn btn-spin" type="submit"></button>
+                    <select id="select-symbol" class="select select--symbol" name="symbol">
+                        <option>Load config first</option>
+                    </select>
+                </form>
+            </div>
+            <div class="config-panel">
+                <div class="config-panel__content">
+                    <form id="config-loader" class="config-panel__form">
+                        <input value="/app/symbols_alternative.json" type="text" name="configPath" />
+                        <button text="load-config" type="submit">
+                            Load config
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="build/bundle.js" async></script>
+</body>
+</html>
