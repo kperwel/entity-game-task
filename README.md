@@ -1,7 +1,7 @@
 ## Install
 
 ```
-$ npm install --save pageres
+$ npm install
 ```
 ## Run
 Only dev server is configured. It's enough to see result.
